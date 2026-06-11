@@ -67,17 +67,30 @@ VITE_GROQ_API_KEY=your_groq_api_key
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-InterviewIq/
-├── public/          # static assets
-├── src/
-│   ├── components/  # reusable UI components
-│   ├── pages/       # route-level views
-│   ├── hooks/       # custom React hooks
-│   └── main.jsx     # entry point
-├── index.html
-└── vite.config.js
+```text
+InterviewIQ/
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   └── main.jsx
+│   ├── index.html
+│   └── package.json
+│
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── middleware/
+│   ├── models/
+│   ├── config/
+│   └── server.js
+│
+└── README.md
+```
 
 ---
 
